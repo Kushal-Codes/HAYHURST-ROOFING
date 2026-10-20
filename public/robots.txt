@@ -1,0 +1,8 @@
+# robots.txt for Hayhurst Roofing Redesign Preview
+# NOTE: Disallow is active during client preview to prevent duplicate search indexing.
+# On live domain cutover (https://www.hayhurstroofing.co.uk), replace `Disallow: /` with `Allow: /`.
+
+User-agent: *
+Disallow: /
+
+Sitemap: https://www.hayhurstroofing.co.uk/sitemap.xml
